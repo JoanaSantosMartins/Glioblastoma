@@ -1,2 +1,0 @@
-../netMHCIIpan -a old -f IDH2_seq.fasta -length 9 -affS 50.0 -affW 500.0 -rankS 0.50 -rankW 2.0 > ./out/old_9.txt
-
