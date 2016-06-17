@@ -116,7 +116,16 @@ if __name__=="__main__":
         #s.protein_fasta("TP53_sequence")
         s.induce_mutation([143,175,248,273,281],["V","R","R","R","D"],["A","H","W","H","G"]) 
         s.create_peptide("TP53",[143,175,248,273,281])
+    
+    def test4(): #Histone H3-3
+        s = sequence("55977062","H3_sequence.fasta") 
+        #s.protein_ncbi()
+        s.protein_file()
+        #s.protein_fasta("H3_sequence")
+        s.induce_mutation([28,35,35],["K","G","G"],["M","R","V"]) 
+        s.create_peptide("H3",[28,35,35]) 
 
     test1()
     test2()
     test3()
+    test4()
