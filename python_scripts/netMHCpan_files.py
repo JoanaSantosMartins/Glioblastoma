@@ -118,12 +118,97 @@ if __name__=="__main__":
         n.remove_error()
         n.find_SB_WB()
     
-    def test2():
+    def test2(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out10/*.txt"
+        n = netMHCpan(path, 10, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test3(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out11/*.txt"
+        n = netMHCpan(path, 11, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test4(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out12/*.txt"
+        n = netMHCpan(path, 12, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test5(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out13/*.txt"
+        n = netMHCpan(path, 13, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test6(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out14/*.txt"
+        n = netMHCpan(path, 14, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test7(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCpan-2.8/H3/seq/out8/*.txt"
+        n = netMHCpan(path, 8, 1)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test8(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCIIpan-3.1/seq/out16/*.txt"
+        n = netMHCpan(path, 16, 2)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test9(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCIIpan-3.1/seq/out17/*.txt"
+        n = netMHCpan(path, 17, 2)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test10(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCIIpan-3.1/seq/out18/*.txt"
+        n = netMHCpan(path, 18, 2)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test11(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCIIpan-3.1/seq/out19/*.txt"
+        n = netMHCpan(path, 19, 2)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+    
+    def test12(): 
+        path = "D:/PI/Bioinformatics/2semestre/Projeto/Glioblastoma-master_v2/netMHCIIpan-3.1/seq/out20/*.txt"
+        n = netMHCpan(path, 20, 2)
+        n.remove_lines()
+        n.remove_error()
+        n.find_SB_WB()
+             
+    def test15():
         n = netMHCpan("human_HLA.txt")
         n.human_HLA()
 
-    
+      
     test1()
-        
+    test2()    
+    test3()   
+    test4() 
+    test5()
+    
+    test6()
+    test7()
+
+    
     
     

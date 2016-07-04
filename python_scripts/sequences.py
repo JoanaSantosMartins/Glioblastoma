@@ -99,7 +99,6 @@ if __name__=="__main__":
         s.induce_mutation([132],["R"],["H"]) 
         s.create_peptide("IDH1",[132])
 
-    
     def test2(): #IDH2
         s = sequence("20141568","IDH2_sequence.fasta")
         #s.protein_ncbi()
@@ -108,7 +107,6 @@ if __name__=="__main__":
         s.induce_mutation([172,172,172],["R","R","R"],["G","K","M"]) 
         s.create_peptide("IDH2",[172,172,172])
 
-    
     def test3(): #TP53
         s = sequence("823670074","TP53_sequence.fasta") 
         #s.protein_ncbi()
@@ -123,9 +121,12 @@ if __name__=="__main__":
         s.protein_file()
         #s.protein_fasta("H3_sequence")
         s.induce_mutation([28,35,35],["K","G","G"],["M","R","V"]) 
-        s.create_peptide("H3",[28,35,35]) 
+        s.create_peptide("H3",[28,35,35])    
+        
+        
+        
 
-    test1()
-    test2()
-    test3()
+    #test1()
+    #test2()
+    #test3()
     test4()
