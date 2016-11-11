@@ -1,0 +1,2 @@
+../netMHCIIpan -a old -f H3.fasta -length 20 -affS 50.0 -affW 500.0 -rankS 0.50 -rankW 2.0 > ./out/old_20.txt
+
